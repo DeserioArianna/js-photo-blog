@@ -1,0 +1,31 @@
+img {
+    width: 100%;
+} 
+body {
+    background-image: url(../img/cork.png);
+    background-size: cover;
+}
+
+.bg-gray {
+    background-image: url(../img/wall.png);
+    height: 100%;
+}
+.title {
+    font-family: "Nerko One", serif;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 6rem;
+}
+
+.puntina {
+    width: 13%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.card .position-relative {
+    position: relative;
+}
