@@ -11,8 +11,9 @@ body {
     height: 100%;
 }
 .title {
-    font-family: "Nerko One", serif;
-    font-weight: 400;
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: oblique;
     font-size: 6rem;
 }
@@ -25,5 +26,13 @@ body {
     transform: translateX(-50%);
     z-index: 1;
 } 
+
+.my-text { 
+    font-family: "Edu TAS Beginner", serif;
+    font-weight: 400;
+    font-style: oblique;
+    color : #808080;
+    font-size: 1,5rem;
+}
 
 
