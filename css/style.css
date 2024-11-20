@@ -36,3 +36,26 @@ body {
 }
 
 
+.my-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.my-modal-body {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#modale-img {
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
