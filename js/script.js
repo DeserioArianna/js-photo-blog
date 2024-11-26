@@ -1,6 +1,6 @@
 const cardRow = document.querySelector(".row");
 const modal = document.querySelector(".my-modal");
-const modalBody = document.querySelector("my-modal-body")
+const modalBody = document.querySelector(".my-modal-body")
 const closeModale = document.querySelector(".close-modal")
 const modalImage = document.querySelector("#modale-img")
 // console.log(cardRow)
@@ -48,6 +48,10 @@ axios.get("https://jsonplaceholder.typicode.com/photos?_limit=6").then(response 
 
     closeModale.addEventListener("click", () => {
         modal.classList.add("d-none");
+    })
+    
+    modal.addEventListener("click", () => {
+        modal.classList.add("d-none")
     })
 
 
